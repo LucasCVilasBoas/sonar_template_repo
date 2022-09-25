@@ -11,3 +11,7 @@ def test_soma_dois_negativos():
 
 def test_soma_nulo():
     assert adder.soma(1, 0) == 1
+
+
+def test_soma_dois_nulos():
+    assert adder.soma(0, 0) == 0
