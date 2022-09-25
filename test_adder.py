@@ -19,3 +19,7 @@ def test_soma_dois_nulos():
 
 def test_soma_neg_e_pos():
     assert adder.soma(-1, 1) == 0
+
+
+def test_neg_e_pos():
+    assert adder.soma(1, -1) == 0
