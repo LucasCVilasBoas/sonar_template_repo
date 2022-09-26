@@ -9,4 +9,5 @@ def par_ou_impar(a):
         return "Ímpar"
 
 
-print(par_ou_impar(3))
+def subtracao(a, b):
+    return a - b
